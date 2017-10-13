@@ -111,6 +111,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BaseEntity.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Wolf.cpp" />
+    <ClCompile Include="WolfStates.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseEntity.h" />
+    <ClInclude Include="State.h" />
+    <ClInclude Include="Wolf.h" />
+    <ClInclude Include="WolfStates.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
